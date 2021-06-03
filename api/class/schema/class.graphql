@@ -1,0 +1,45 @@
+const { gql } = require("apollo-server");
+
+const classSchema = gql`
+  scalar DateTime
+
+  type Class {
+    id: ID!
+    description: String!
+    period: String
+    vacancies: Int
+    start: DateTime
+    teacher: User!
+    createdAt: DateTime!
+    enrollments: [Enrollment]
+  }
+  
+  type Query {
+    classes (page: Int, limit: Int): [Class]
+    class(id: ID!): Class,
+  }
+
+  input ClassInput {
+    description: String
+    period: String
+    vacancies: Int
+    start: DateTime
+    teacher_id: Int
+  }
+
+  interface Response {
+    message: String!
+  }
+
+  type DefaultResponse implements Response {
+    message: String!
+  }
+
+  type Mutation {
+    addClass(newClass: ClassInput): Class!,
+    updateClass(id: ID!, updatedClass: ClassInput): Class!
+    deleteClass(id: ID!): DefaultResponse!
+  }
+`;
+
+module.exports = classSchema

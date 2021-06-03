@@ -1,0 +1,21 @@
+const { gql } = require("apollo-server");
+
+const roleSchema = gql`
+  enum RoleTypes {
+    STUDENT
+    TEACHER
+    COORDINATION
+  }
+
+  type Role {
+    id: ID!
+    type: RoleTypes!
+  }
+
+  type Query {
+    roles: [Role]
+    role(id: ID!): Role!
+  }
+`
+
+module.exports = roleSchema

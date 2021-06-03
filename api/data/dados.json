@@ -1,0 +1,140 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ana Torre",
+      "active": true,
+      "email": "a@a.com",
+      "role": 1
+    },
+    {
+      "id": 2,
+      "name": "Gabriel Costa",
+      "active": true,
+      "email": "g@g.com",
+      "role": 1
+    },
+    {
+      "id": 3,
+      "name": "Flavia Lins",
+      "active": true,
+      "email": "f@f.com",
+      "role": 1
+    },
+    {
+      "id": 4,
+      "name": "Carlos Marques",
+      "active": true,
+      "email": "c@c.com",
+      "role": 2
+    },
+    {
+      "id": 5,
+      "name": "Silvia Souza",
+      "active": true,
+      "email": "s@s.com",
+      "role": 2
+    },
+    {
+      "id": 6,
+      "name": "Marcia Silva",
+      "active": true,
+      "email": "m@m.com",
+      "role": 2
+    },
+    {
+      "name": "Claudio",
+      "active": true,
+      "email": "claudio@mail.com",
+      "role": 2,
+      "createdAt": "2021-06-02T00:00:00.000Z",
+      "id": 7
+    },
+    {
+      "name": "Claudio",
+      "active": true,
+      "email": "claudio@mail.com",
+      "role": 2,
+      "createdAt": "2021-06-02T00:00:00.000Z",
+      "id": 8
+    },
+    {
+      "name": "Claudio",
+      "active": true,
+      "email": "claudio@mail.com",
+      "role": 2,
+      "createdAt": "2021-06-02T00:00:00.000Z",
+      "id": 9
+    },
+    {
+      "name": "Claudio 2",
+      "active": true,
+      "email": "claudio@mail.com",
+      "role": 1,
+      "createdAt": "2021-06-02T00:00:00.000Z",
+      "id": 10
+    },
+    {
+      "name": "Claudio",
+      "active": true,
+      "email": "claudio@mail.com",
+      "role": 2,
+      "createdAt": "2021-06-02T00:00:00.000Z",
+      "id": 11
+    },
+    {
+      "name": "Claudio",
+      "active": true,
+      "email": "claudio@mail.com",
+      "role": 2,
+      "createdAt": "2021-06-02T00:00:00.000Z",
+      "id": 12
+    },
+    {
+      "name": "Claudio",
+      "active": true,
+      "email": "claudio@mail.com",
+      "role": 2,
+      "createdAt": "2021-06-02T00:00:00.000Z",
+      "id": 13
+    },
+    {
+      "name": "Claudio",
+      "active": true,
+      "email": "claudio@mail.com",
+      "role": 2,
+      "createdAt": "2021-06-02T00:00:00.000Z",
+      "id": 14
+    },
+    {
+      "name": "Claudio",
+      "active": true,
+      "email": "claudio@mail.com",
+      "role": 2,
+      "createdAt": "2021-06-02T00:00:00.000Z",
+      "id": 15
+    },
+    {
+      "name": "Claudio",
+      "active": true,
+      "email": "claudio@mail.com",
+      "role": 2,
+      "createdAt": "2021-06-02T00:00:00.000Z",
+      "id": 16
+    }
+  ],
+  "roles": [
+    {
+      "id": 1,
+      "type": "ESTUDANTE"
+    },
+    {
+      "id": 2,
+      "type": "DOCENTE"
+    },
+    {
+      "id": 3,
+      "type": "COORDENACAO"
+    }
+  ]
+}

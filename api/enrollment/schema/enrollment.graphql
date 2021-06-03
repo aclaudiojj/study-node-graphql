@@ -1,0 +1,21 @@
+const { gql } = require('apollo-server')
+
+const enrollmentSchema = gql `
+  scalar DateTime
+
+  type Enrollment {
+    id: ID!
+    student: User!
+    class: Class!
+    createdAt: DateTime!
+    status: String!
+  }
+
+  type Mutation {
+    enrollStudent(student: ID!, class: ID!): DefaultResponse!
+    deleteEnrollment(id: ID!): DefaultResponse!
+    cancelEnrollment(id: ID!): DefaultResponse!
+  }
+`
+
+module.exports = enrollmentSchema
